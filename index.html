@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<h2>CONVERT A JAVASCRIPT OBJECT TO A JSON STRING</h2>
+<p id="result"></p>
+
+<script>
+
+    var myobj = {name: "Darshil Singh" , age: 13 , grade: 8};
+    var myJSON = JSON.stringify(myobj);
+    var myJsobject = JSON.parse(myJSON);
+    document.getElementById("result").innerHTML = myJsobject.name + "<br>" + myJsobject.age + "<br>" + myJsobject.grade;
+</script>
+
+
+
+
+    
+</body>
+</html>
